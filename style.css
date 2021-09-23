@@ -100,14 +100,14 @@ body{
         padding: 20px!important;
     }
 
-    .course-title{
+    /* .course-title{
         margin-top: 20px!important;
-    }
+    } */
 
-    .course-note{
+    /* .course-note{
         font-size: 14px;
         line-height: 20px;
-    }
+    } */
 
     .buy-btn, .pre-btn{
         width: 280px;
