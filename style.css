@@ -18,6 +18,12 @@
     padding: 20px;
 }
 
+.fav-btn {
+    background-image: linear-gradient(to right,#0d826e,#071b4d, #0d826e);
+    padding: 10px;
+    font-size: 14px;
+}
+
 .pre-btn{
     width: 300px;
     padding: 20px;
@@ -61,6 +67,8 @@ body{
 .author-pics{
     border-radius: 50%;
     width: 40%;
+    border: 1px solid #0d826e;
+    box-shadow: 2px 2px 2px dimgray;
 }
 
 .btn:focus{
@@ -88,6 +96,26 @@ body{
     border-bottom: 2px solid #0d826e;
 }
 
+.bg-dark, .bg-black{
+    background-color: white!important;
+    color: #071b4d!important;
+}
+
+.text{
+    color: #071b4d!important;
+}
+
+.nav{
+    background-color: black;
+    margin-bottom: 0px!important;
+}
+
+.nav-pills .nav-link.active{
+    background-color: black!important;
+    border-radius: 0px!important;
+    border-top: 4px solid #0d826e;
+}
+
 
 
 @media only screen and (min-device-width:320px) and (max-device-width:420px){
@@ -112,6 +140,10 @@ body{
 
     .buy-btn, .pre-btn{
         width: 280px;
+    }
+
+    .fav-btn{
+        font-size: 12px;
     }
 
     .pre-btn{
