@@ -1,0 +1,151 @@
+.cont-img{
+    background-image: url('prebg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 20px;
+    padding-top: 100px!important;
+}
+
+.course-note{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+.buy-btn {
+    background-image: linear-gradient(to right,#0d826e,#071b4d, #0d826e);
+    width: 300px;
+    padding: 20px;
+}
+
+.pre-btn{
+    width: 300px;
+    padding: 20px;
+}
+
+.pre-btn:hover{
+    background-color: white;
+    color: black!important;
+}
+
+
+.accordion-item{
+    border-width: 0px!important;
+}
+
+.course-part:hover{
+    background-color: #071b4d;
+    color: white;
+    cursor: pointer;
+}
+
+.main{
+    background-color: #0d826e!important;
+}
+
+
+body{
+    background-color: rgb(36, 33, 33);
+}
+
+
+.rating{
+    font-size: 14px;
+    border-bottom: 2px solid black;
+}
+
+.desc{
+    font-size: 14px;
+}
+
+.author-pics{
+    border-radius: 50%;
+    width: 40%;
+}
+
+.btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.accordion-button{
+    background-color: #0d826e!important;
+    color: white!important;
+}
+
+.accordion-body{
+    background-color: white!important;
+}
+
+
+.fst-italic{
+    color: #0d826e!important;
+}
+
+
+.break{
+    border-top: 2px solid #0d826e;
+    border-bottom: 2px solid #0d826e;
+}
+
+
+
+@media only screen and (min-device-width:320px) and (max-device-width:420px){
+    .accord-section{
+        position: relative!important;
+        overflow-y: auto;
+    }
+
+    .cont-img{
+        padding: 20px!important;
+    }
+
+    .course-title{
+        margin-top: 20px!important;
+    }
+
+    .course-note{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .buy-btn, .pre-btn{
+        width: 280px;
+    }
+
+    .pre-btn{
+        margin-left: 0px!important;
+        margin-top: 20px;
+    }
+
+    .details-section{
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
+
+    .description{
+        margin-top: 20px!important;
+        padding: 0px!important;
+    }
+
+    .authors{
+        padding-top: 30px!important ;
+    }
+
+    .author-pics{
+        margin-bottom: 20px!important;
+    }
+
+
+    .learn{
+        padding: 10px!important;
+    }
+
+    .video{
+        margin-top: 6px!important;
+    }
+
+    .vid-cont{
+        padding: 0px!important;
+    }
+}
