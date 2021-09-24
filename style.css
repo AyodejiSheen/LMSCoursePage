@@ -114,14 +114,19 @@ body{
     background-color: black!important;
     border-radius: 0px!important;
     border-top: 4px solid #0d826e;
+    color: white!important;
 }
 
+.nav-pills .nav-link{
+    color: #0d826e!important;
+}
 
 
 @media only screen and (min-device-width:320px) and (max-device-width:420px){
     .accord-section{
         position: relative!important;
         overflow-y: auto;
+        height: auto!important;
     }
 
     .cont-img{
